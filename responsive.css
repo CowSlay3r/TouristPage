@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    .hotservice-content .leftside {
+        width: 100%;
+    }
+
+    .hotservice-content .rightside {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .icon-section {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .happy-travelers .happy-content .happy-card {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .img-card .card-content .card-tour {
+        width: 100%;
+    }
+
+    .navbar .menu {
+        display: none;
+    }
+
+    .get-off input {
+        width: 100%;
+    }
+
+    footer .quick-links {
+        display: none;
+    }
+
+    .footer-container {
+        display: none;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+    .section .book-now h2 {
+        color: #000;
+    }
+
+    .right-button {
+        display: none;
+    }
+
+    .left-button {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    .hotservice-content .leftside {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hotservice-content .rightside .card {
+        width: 100%;
+    }
+
+    .icon-section .icons {
+        text-align: center;
+        width: 25%;
+    }
+
+    .popular-tour .tour-cards-container .tour-cards {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .happy-travelers .happy-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .img-card .card-content .card-tour {
+        width: 100%;
+    }
+
+    footer .quick-links:nth-child(1) {
+        display: none;
+    }
+
+    footer .quick-links:nth-child(2) {
+        display: none;
+    }
+
+    footer .quick-links:nth-child(3) {
+        display: none;
+    }
+
+    footer .quick-links input {
+        width: 200px;
+    }
+
+    footer .quick-links button {
+        border-radius: 50px;
+        margin-left: 50px;
+    }
+
+    footer .quick-links button {
+        width: 100px;
+    }
+
+    footer .copyright {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .sticker {
+        display: none;
+    }
+
+    .popular-tour .tour-cards-container .tour-cards {
+        width: 95%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .right-button {
+        display: none;
+    }
+
+    .left-button {
+        display: none;
+    }
+
+    .hotservice-content .leftside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .icon-section .icons {
+        margin: 0px;
+    }
+
+    .popular-tour .tour-cards-container .tour-cards {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .popular-tour .tour-cards-container .tour-cards .sticker {
+        display: none;
+    }
+
+    .happy-travelers .happy-card {
+        /* height: 109px; */
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .img-card .card-content .card-tour {
+        width: 90%;
+    }
+
+    footer .quick-links button {
+        border-radius: 10px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .right-button {
+        display: none;
+    }
+
+    .hotservice-content .leftside {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .icon-section div {
+        width: 17%;
+    }
+
+    .img-card .card-content .card-tour {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-bars {
+        margin: 30px;
+        float: right;
+        border-radius: 20px;
+    }
+
+}
+

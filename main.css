@@ -1,0 +1,640 @@
+
+
+/* ================================== NAVIGATION ========================================= */
+
+.navbar {
+    height: 81px;
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin: 30px;
+}
+
+.navbar .menu {
+    display: inline-block;
+    float: right;
+    margin: 30px;
+    padding-right: 50px;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.navbar .menu a {
+    padding-left: 30px;
+    color: #303134;
+}
+
+.navbar img {
+    width: 133px;
+    height: 31px;
+}
+
+.navbar a {
+    text-decoration: none;
+    width: 46px;
+    height: 21px;
+}
+
+/* =============================================== CAROUSEL ==================================================  */
+
+.carousel {
+    background-image: url(./img/banner.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.carousel h1 {
+    color: #FFFFFF;
+    font-size: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel .sec-p {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.carousel .carousel-info {
+    display: inline-block;
+    margin-top: 116px;
+}
+
+.carousel .carousel-info .person {
+    margin-top: -61px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 70px;
+    color: #006CD1;
+}
+
+.left-button {
+    float: left;
+    display: inline-block;
+    margin-top: -80px;
+    margin-left: -400px;
+}
+
+.right-button {
+    float: right;
+    display: inline-block;
+    margin-top: -80px;
+    margin-right: -400px;
+}
+
+.left-button img {
+    width: 33px;
+    height: 33px;
+}
+
+.right-button img {
+    width: 33px;
+    height: 33px;
+}
+
+/* =============================== hotservice-content =======================================  */
+
+.hotservice-content {
+    display: inline-block;
+    width: 100%;
+}
+
+.hotservice-content .leftside {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.hotservice-content .leftside .subtitle {
+    color: gray;
+    margin: 0px;
+}
+
+.hotservice-content .leftside .title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.hotservice-content .leftside .text {
+    color: gray;
+}
+
+
+.hotservice-content .rightside {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    float: left;
+}
+
+.hotservice-content .rightside .title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 33%;
+    height: 327px;
+}
+
+.card .content {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.card .head img {
+    width: 100%;
+}
+
+.card .text p {
+    color: #8D8D8D;
+}
+
+.card .title h3 {
+    font-weight: 13;
+    color: #1A1A1B;
+}
+
+/* ============================================================================ */
+
+.section-card {
+    display: inline-block;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding: 30px;
+}
+
+.video-section {
+    height: 500px;
+    background-image: url(./img/palmebi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.video-section:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 0;
+}
+
+.video-section .text-div {
+    color: white;
+    padding-top: 64px;
+    text-align: center;
+    position: relative;
+}
+
+.video-section .text-div .title {
+    margin-bottom: 53px;
+}
+
+.video-section .video {
+    text-align: center;
+    position: relative;
+}
+
+.video-section iframe {
+    margin-top: 17px;
+}
+
+.video-section p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.video-section h3 {
+    font-size: 25px;
+}
+
+/* =========================== icon section ===================================================== */
+
+.icon-section {
+    border: 1px solid #EFEFEF;
+    padding-left: 150px;
+}
+
+.icon-section p {
+    text-align: center;
+}
+
+.icon-section .icons {
+    text-align: center;
+    /* padding: 20px; */
+    margin-right: 40px;
+}
+
+.icon-section .icons p {
+    font-size: 30px;
+    color: #1A1A1B;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-section .icons h3 {
+    font-size: 13px;
+}
+
+.icon-section div {
+    width: 20%;
+    padding: 20px;
+    display: inline-block;
+}
+
+/* =============================== POPULAR TOUR =============================================  */
+
+.popular-tour {
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.popular-tour .tour-header {
+    margin-bottom: 67px;
+    margin-top: 64px;
+}
+
+.popular-tour .tour-header p {
+    margin-bottom: 13px;
+    color: #B1B1B1;
+}
+
+.popular-tour .tour-cards {
+    margin-right: 30px;
+}
+
+.popular-tour .tour-cards p {
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.popular-tour .tour-cards-container .tour-cards {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 9px -3px #a9a3a3;
+}
+
+.popular-tour .tour-cards-container .tour-cards .sticker {
+    width: 98px;
+    height: 25px;
+    background-color: #FED701;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.popular-tour .tour-cards-container .tour-cards img {
+    width: 267px;
+    height: 246px;
+}
+
+.popular-tour .tour-cards-container .tour-cards h3 {
+    color: #4B54FA;
+    font-size: 18px;
+}
+
+/* ================================get 100% off ============================================= */
+
+.get-off {
+    height: 350px;
+    background-image: url("./img/serfer.png");
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.get-off::before {
+    background-color: rgba(64, 216, 203, 55%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.get-off h2 {
+    letter-spacing: 3px;
+    padding: 30px;
+    font-size: 25px;
+    width: 482;
+    height: 46;
+}
+
+.get-off p {
+    width: 292px;
+    height: 24px;
+    display: inline;
+}
+
+.get-off input {
+    border-radius: 40px;
+    border: none;
+    width: 395px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.get-off button {
+    cursor: pointer;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color: #08AEEA;
+    width: 155px;
+    height: 50px;
+}
+
+.get-off .subscribe {
+    margin-top: 60px;
+}
+
+/* ========================== BOOK NOW ========================================== */
+
+.section {
+    background-image: url(./img/bookimg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.book-now {
+    margin-top: 25%;
+}
+
+.section .book-now h2 {
+    font-size: 30px;
+    color: #FEFEFF;
+    margin-bottom: 30px;
+}
+
+.section .book-now button {
+    background-color: #1AD3BE;
+    color: #FEFEFF;
+    border-radius: 40px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* ========================================= HAPPY  TRAVELERS ====================================== */
+
+.happy-travelers {
+    width: 100%;
+    text-align: center;
+}
+
+.happy-travelers .travelers-header {
+    margin: 65px 0px;
+}
+
+.happy-travelers .travelers-header p {
+    margin-bottom: 13px;
+    color: #8D8D8D;
+}
+
+.happy-travelers .travelers-header h2 {
+    font-size: 20px;
+}
+
+.happy-travelers .happy-card {
+    background-color: #F4F4F4;
+    display: inline-block;
+    height: 409px;
+    width: 33%;
+}
+
+.happy-travelers .happy-card p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.happy-travelers .happy-card .happy-p {
+    color: #4B54FA;
+}
+
+.happy-travelers .happy-content {
+    display: inline-block;
+    padding: 30px;
+}
+
+.happy-travelers .happy-card .happy-img-header {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: 40px;
+}
+
+.happy-card .happy-quote {
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+/* ========================================== IMG CARD ================================================= */
+
+.img-card {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+.img-card .card-header {
+    margin: 65px 0px;
+}
+
+.img-card .card-content {
+    margin-bottom: 50px;
+}
+
+.img-card .card-header p {
+    margin-bottom: 13px;
+    color: #8D8D8D;
+}
+
+.img-card .card-content img {
+    width: 271px;
+    height: 300px;
+}
+
+.img-card .card-content .card-tour {
+    display: inline-block;
+    width: 22%;
+    height: 425px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.img-card .card-content .card-tour .card-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.img-card .card-content .card-tour .card-info .card-countr {
+    font-size: 30px;
+}
+
+.img-card .card-content .card-tour .card-info .left {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.img-card .card-content .card-tour .card-info .right {
+    display: inline-block;
+    float: right;
+    width: 50%;
+}
+
+.img-card .card-content .card-tour p {
+    color: white;
+}
+
+.img-card .card-content .card-tour .card-button {
+    background-color: #08AEEA; 
+    float: right;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* ==================================================== MAP ================================================ */
+
+/* ================================================== Footer ===================================== */
+
+footer {
+    width: 100%;
+    height: 349px;
+    background-color: #141418;
+    color: white;
+    text-align: center;
+}
+
+.footer-container {
+    padding: 50px;
+}
+
+.copyright {
+    margin-top: 90px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer .quick-links {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+footer .quick-links a {
+    text-decoration: none;
+    color: #DCDBDB;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer .quick-links p {
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-left: -15px;
+}
+
+footer .quick-links input {
+    border: none;
+    height: 47px;
+    border-radius: 5px;
+}
+
+footer .quick-links button {
+    border: none;
+    height: 47px;
+    margin-left: -5px;
+    background-color: #1CD8BA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .copyright {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+/* ==================== MODAL =========================== */
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
